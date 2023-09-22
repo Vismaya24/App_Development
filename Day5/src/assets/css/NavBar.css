@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+.nav-bar{
+    height: 70px;
+    width: 1536px;
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.nav-text{
+    color: black;
+    font-family: 'Varela Round';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.home-text{
+    font-family: 'Overpass';
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

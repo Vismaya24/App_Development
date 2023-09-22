@@ -1,0 +1,20 @@
+.sell-text1{
+    font-family: 'Catamaran';
+    font-size: 40px;
+    margin-left: 100px;
+    color: black;
+}
+.sell-input{
+    height: 30px;
+    width: 250px;
+    border-color: black;
+    background-color: transparent;
+    border-style: solid;
+}
+.sell-btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-style: solid;
+}

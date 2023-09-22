@@ -1,0 +1,13 @@
+.buy-text1{
+   color: #000000cf;
+   font-family: 'Catamaran';
+   font-size: 40px;
+   margin-left: 90px;
+}
+.category-box{
+    margin-left: 80px;
+    height: 300px; 
+    width: 280px;
+    border-color: transparent;
+    /* border-style: solid; */
+}

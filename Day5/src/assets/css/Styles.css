@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+.contactus-style{
+    font-size: 45px;
+    text-align: justify;
+    font-family: 'Jost';
+}
+.contactus-style2{
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Inter';
+}
+.cbox1{
+    height: 500px; 
+    width: 450px;
+    background-color: transparent;
+    border-color: none;
+    margin-top: 70px;
+}
+.contact-input{
+    width: 400px;
+    height: 35px;
+    border-color: black;
+    border-style: solid;
+    background-color: transparent;
+    font-family: 'Inter';
+}
+.contact-input:focus,::placeholder{
+    outline: black;
+    color: black;
+    font-family: 'Inter';
+}
+.contact-btn{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: 'Outfit';
+    border-color: black;
+    border-style: solid;
+    transition: transform .5s ease;
+}
+.contact-btn:hover{
+    transform: scale(1.01);
+}
+.textarea{
+    height: 90px;
+    width: 400px;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    resize: none;
+    font-family: 'Inter';
+    border-width: 2px;
+}
+.textarea::placeholder,:focus{
+    font-family: 'Inter';
+    outline: black;
+}
+.admin-nav{
+    width: 250px;
+    height: 738px;
+    background-color: rgb(18, 18, 18);
+    position: fixed;
+}
+.admin-textbox{
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 15px;
+    border-color: transparent;
+    text-decoration: none;
+}
+/* .admin-textbox:hover{
+    background-color: white;
+    color: rgb(18, 18, 18);
+    border-color: black;
+    border-style: solid;
+} */
+.admin-text1{
+   color: white;
+   font-family: 'Inter';
+   text-align: center;
+   font-size: 20px;
+}
+.admin-logout{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    font-family: 'Inter';
+    margin-top: 250px;
+    margin-left: 45px;
+}
+
+.admin-loginbox{
+    margin-left: 590px;
+    height: 490px;
+    width: 400px;
+    background-color: #ffffff; 
+    box-shadow: 2px 2px 10px 0px black;
+}
+.admin-login{
+     height: 30px;
+     width: 250px;
+     border-color: #000000;
+     border-width: 2px;
+     border-style: solid;
+}
+.admin-btn{
+    height: 40px;
+    width: 200px;
+    margin-left: 100px;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+td {
+    border: 1px solid;
+    height: 40px;
+    background-color: rgb(235, 240, 241);
+}
+th{
+    background-color: rgb(137, 176, 180);
+    border: 1px solid;  
+    color: rgb(0, 0, 0);
+    height: 50px;
+  }
+  
+  table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+  .dashboard-box{
+    background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 150px;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .dashboard-text{
+    color: white;
+    font-family: 'Catamaran';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
