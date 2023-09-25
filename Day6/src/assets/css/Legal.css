@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.privacy-text1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Jost';
+}
+.privacy-text2{
+    font-size: 20px;
+    font-family: 'Quicksand';
+    margin-left: 150px;
+    font-weight: 900;
+}
+.privacy-text3{
+    font-size: 17px;
+    font-family: 'Quicksand';
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+.privacy-text4{
+    font-size: 17px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 160px; 
+}
+.faq-question{
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 250px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Jost';
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(194, 191, 191);
+}
+.faq-question2{
+    background-color: rgb(251, 248, 248);
+    color: black;
+}
+.faq-answer{
+   color: rgb(0, 0, 0);
+   font-size: 17px;
+   width: 1000px;
+   font-family: 'Quicksand';
+   text-align: justify;
+   border-left: 5px solid rgb(0, 0, 0);
+   line-height: 4vh;
+}
+.ans-text{
+    margin-left: 20px;
+}
+
+.style1 {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .style2 {
+    color: blue;
+    font-size: 18px;
+  }

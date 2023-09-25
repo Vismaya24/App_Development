@@ -1,0 +1,100 @@
+.login-box{
+     width: 550px;
+     height: 739px;
+     background-color: rgb(255, 255, 255);
+     margin-left: -935px;
+}
+.flex{
+     display: flex;
+     justify-content: center;
+}
+.login-text{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+}
+.login-input{
+     width: 350px;
+     height: 35px;
+     background: transparent;
+     /* border-color: black; */
+     border-bottom: 2px solid #000000;
+     border-top: 2px solid transparent;
+     border-right: 2px solid transparent;
+     border-left: 2px solid transparent;
+}
+.login-input:focus{
+     outline: none;
+}
+.login-input::placeholder{
+     color: black;
+}
+.login-button{
+     width: 250px;
+     margin-left: 54px;
+     height: 40px;
+     background: transparent;
+     border-color: black;
+     border-style: solid;
+}
+.login-button:hover{
+     color: white;
+     background-color: black;
+}
+.signup-box{
+     width: 550px;
+     height: 739px;
+     background-color: rgb(255, 255, 255);
+     margin-left: -935px;
+}
+.signup-bg{
+background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+.flex{
+     display: flex;
+     justify-content: center;
+}
+.signup-text{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     margin-top: 10px;
+}
+.signup-input{
+     width: 350px;
+     height: 35px;
+     background: transparent;
+     border-color: black;
+     /* border-style: solid; */
+     margin-top: 10px;
+     border-bottom: 2px solid #000000;
+     border-top: 2px solid transparent;
+     border-right: 2px solid transparent;
+     border-left: 2px solid transparent;
+}
+.signup-input::placeholder{
+     color: black;
+}
+.signup-input:focus{
+     outline: none;
+}
+.signup-button{
+     width: 250px;
+     margin-left: 54px;
+     height: 40px;
+     background: transparent;
+     border-color: black;
+     border-style: solid;
+     /* border-radius: 10px 10px 10px 10px; */
+}
+.signup-button:hover{
+     color: white;
+     background-color: black;
+}
+.icon{
+     transition: transform .5s ease;
+}
+.icon:hover{
+     transform: scale(1.15);
+}
